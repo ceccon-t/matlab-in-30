@@ -11,3 +11,5 @@ random_number = rand
 random_vector = rand(1,2)
 random_matrix = rand(3,4)
 random_square_matrix = rand(5)
+
+ones_vector = ones(1,5)
