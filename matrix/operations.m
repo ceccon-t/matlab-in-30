@@ -21,3 +21,10 @@ op_diag_A = diag(A)
 op_triu_A = triu(A)
 op_tril_A = tril(A)
 
+%  x+4y=-3
+% 6x+2y= 8
+equation_matrix = [1 4 -3; 6 2 8] 
+solved_equation = rref(equation_matrix) % solves the equation for x and y (reduced row eschelon)
+
+equation_matrix2 = [1 3 -2 6; 5 6 4 7; 1 -23 8 2]
+solved_equation2 = rref(equation_matrix2)
