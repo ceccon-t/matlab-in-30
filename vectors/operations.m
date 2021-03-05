@@ -10,3 +10,6 @@ op_min = min(a);
 op_min
 op_max = max(a);
 op_max
+
+b = [4, 5, 8, 7, 3];
+op_elementwise_mult = a.*b
