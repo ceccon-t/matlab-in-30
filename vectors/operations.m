@@ -1,4 +1,5 @@
 a = [1, 2, 3, 5, 7]
+idx_3 = a(3) % indexes with parenthesis, starting at 1
 op_length = length(a);
 op_length
 op_sum = sum(a);
