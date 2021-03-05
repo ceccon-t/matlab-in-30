@@ -28,3 +28,10 @@ solved_equation = rref(equation_matrix) % solves the equation for x and y (reduc
 
 equation_matrix2 = [1 3 -2 6; 5 6 4 7; 1 -23 8 2]
 solved_equation2 = rref(equation_matrix2)
+
+% trace = sum of diagonal elements
+traced_matrix = [1 2 3; 4 5 6; 6 -1 0]
+op_trace = trace(traced_matrix)
+op_rank = rank(traced_matrix)
+op_det = det(traced_matrix) % determinant
+op_inv = inv(traced_matrix) % inverse of matrix
